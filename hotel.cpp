@@ -43,7 +43,10 @@ hotel::hotel(){}
         s=g1.getnrpersoana();
         cout<<"\n"<<" Ce tip de camera doriti? Introduceti C pentru camera mica sau A pentru apartament : ";
         cin>>c;
-
+        if(c!="C" or c!="c" or c!="a" or c!="A"){
+            myexception1 e;
+            throw(e);
+        }
         if(c=="C" or c=="c"){
         int nrp;
         if(s%2==0) nrcam=s/2;
