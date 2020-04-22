@@ -13,14 +13,10 @@ int client::restaurant=0;
 int hotel::salaindiv=0;
 int main()
 {
-
 hotel h;
 try{
 h.rezervare();
 }catch (myexception1 e){
-cout<<e.what()<<endl;
-}
-catch (myexception2 e){
 cout<<e.what()<<endl;
 }
 
