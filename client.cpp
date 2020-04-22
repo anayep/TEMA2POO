@@ -90,8 +90,8 @@ return checkin;
  }
 
 
- void client::setsalascena(int n){
- salascena=n;
+ void client::setsala(int n){
+ sala=n;
 
  }
 
@@ -102,9 +102,9 @@ return checkin;
  }
 
 
- int client::getsalascena(){
+ int client::getsala(){
 
- return salascena;
+ return sala;
  }
 
 
@@ -174,7 +174,9 @@ for(int i=0;i<nr;i++)
         g2.pers.push_back(p);
 
     }
-
+    cout<<"SCRIETI CE TIP DE SALA INCHIRIATI: 1-SALA INDIVIDUALA \n 2-SALA CU SCENA \n 3-FARA SALA ";
+    cin>>tipsala;
+    g2.setsala(tipsala);
     cout<<"SCRIETI NUMARUL DE ZILE DE CAZARE : ";
     cin>>perioada;
 
