@@ -57,10 +57,9 @@ hotel::hotel(){}
             camera c1;
             c1.setdate(0,g1.getperioada());
             ch.push_back(c1);
-            //g1.setpersroom(i,nrcam);
+            
              g1.addroom(c1);
              g1.setpersroom(i,nn);
-             cout<<" I ESTEEE "<<i<<endl;
              g1.setpersroom(i+1,nn);
 
              g1.setcheckin(0);
