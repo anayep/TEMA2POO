@@ -21,15 +21,9 @@ for(int i=0;i<365;i++)
 
      int apartament::setdate(int n,int k){
 
-     cout<<"n esteee "<<n<<"\n  k esteeee  "<<k<<endl;
  int i;
  for(i=n;i<n+k;i++)
     datea[i]=1;
-
-
-for(i=0;i<30;i++)
-    cout<<datea[i]<<" ";
-cout<<endl;
  }
 
  int apartament::checkfirstdate(int n,int p){
