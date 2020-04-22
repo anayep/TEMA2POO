@@ -20,7 +20,6 @@ for(int i=0;i<365;i++)
 
      int camera::setdate(int n,int k){
 
-     cout<<"n esteee "<<n<<"\n  k esteeee  "<<k<<endl;
  int i;
  for(i=n;i<n+k;i++)
     datec[i]=1;
