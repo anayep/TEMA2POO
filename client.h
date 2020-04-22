@@ -16,7 +16,7 @@ int checkin;
 int perioada;
 static int restaurant;
 string roomtype;
-int salascena;
+int sala;
 vector <int> id;
 vector <int> nrcamera;
 public:
@@ -67,9 +67,9 @@ void getpers(int i);
 
  int getrestaurant();
 
- void setsalascena(int i);
+ void setsala(int i);
 
- int getsalascena();
+ int getsala();
  void addroomid(int n);
  void addnrcamera(int n);
 
